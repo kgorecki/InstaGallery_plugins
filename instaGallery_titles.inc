@@ -1,4 +1,7 @@
 <?php
+// TODO:
+// reuse wxiating csv file...
+
 $titles_csv = 'titles.csv';
 $media = getMedia($path);
 
@@ -17,3 +20,4 @@ foreach ($media as $mediafile => $title) {
   }
 }
 fclose($csvfile);
+
